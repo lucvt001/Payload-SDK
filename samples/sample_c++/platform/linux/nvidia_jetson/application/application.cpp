@@ -35,9 +35,9 @@
 #include "../common/osal/osal.h"
 #include "../common/osal/osal_fs.h"
 #include "../common/osal/osal_socket.h"
-#include "../manifold2/hal/hal_usb_bulk.h"
-#include "../manifold2/hal/hal_uart.h"
-#include "../manifold2/hal/hal_network.h"
+#include "../nvidia_jetson/hal/hal_usb_bulk.h"
+#include "../nvidia_jetson/hal/hal_uart.h"
+#include "../nvidia_jetson/hal/hal_network.h"
 
 /* Private constants ---------------------------------------------------------*/
 #define DJI_LOG_PATH                    "Logs/DJI"
