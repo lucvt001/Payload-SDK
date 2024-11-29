@@ -112,9 +112,9 @@ start:
         case '6':
             DjiTest_FlightControlRunSample(E_DJI_TEST_FLIGHT_CTRL_SAMPLE_SELECT_SET_GET_PARAM);
             break;
-        case '7':
-            DjiTest_HmsRunSample();
-            break;
+        // case '7':
+        //     DjiTest_HmsManagerRunSample();
+        //     break;
         case '8':
             DjiTest_WaypointV2RunSample();
             break;
